@@ -1,8 +1,148 @@
-*{
+/* Common Styles */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
-    background-color: red;
+.container {
+    width: 80%;
+    max-width: 1320px;
+    margin: 0 auto;
 }
+
+section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+/* Top Banner Style Start */
+
+#header {
+    background: rgba(0, 0, 0, 0.6) url('../images/banner-image.png');
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.header-txt {
+    color: #FFF;
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    padding-top: 160px;
+}
+
+.header-greet {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+/* Top Banner Style End */
+
+/* Discount Start */
+.discount-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.dis-title {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.dis-sub-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 45px;
+}
+
+.dis-last-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.dis-img {
+    margin-top: 45px;
+}
+
+
+/* Discount End */
+
+/* Welcome Start */
+#welcome {
+    background: rgba(0, 0, 0, 0.6) url('../images/Vectorrr.png');
+    height: 520px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    padding: 0 130px;
+}
+
+.welcome-text{
+    width: 100%;
+    max-width: 700px;
+}
+
+.welcome-title {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.welcome-des {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.welcome-btn{
+    margin-top: 48px;
+    margin-left: 32px;
+}
+
+.welcome-img{
+    max-width: 320px;
+    margin-top: 70px;
+    padding-right: 50px;
+}
+
+.welcome-img img{
+    width: 120%;
+}
+/* Welcome End */
