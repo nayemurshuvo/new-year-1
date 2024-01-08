@@ -1,6 +1,4 @@
 /* Common Styles */
-/* font-family: 'Inter', sans-serif; */
-/* font-family: 'Merriweather', serif; */
 
 * {
     margin: 0;
@@ -211,6 +209,143 @@ section {
 
 /* Event Style End */
 
+/* Offer Styles Start */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.offer-sub-title {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-year {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.offer-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.offer-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 900px;
+    margin-top: 22px;
+}
+
+.offer-year-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 900px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+
+.offer-img img {
+    border: 15px solid red;
+    padding: 30px;
+    border-radius: 100%;
+}
+
+/* Offer Styles End */
+
+/* Holiday Style Start */
+.holiday-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holiday-sub-title{
+    color: #070211;
+    font-family: 'Inter', sans-serif; 
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.holiday-title{
+    color: #070211;
+    font-family: 'Merriweather', serif; 
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holiday-span{
+    color: #F00;
+}
+
+.holiday-des{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif; 
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 900px;
+    margin-bottom: 60px;
+}
+
+.design-container{
+    width: 100%;
+}
+
+.girl{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 100%;
+    transform: translate(-100%);  
+}
+
+.discount{
+    position: absolute;
+    top: 15%;
+    transform: translate(-50%);
+}
+
+.rectangle{
+    width: 1215px;
+    height: 210px;
+    position: relative;
+}
+
+.rectangle img{
+    width: 100%;
+}
+
+.box{
+    width: 500px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    transform: translate(-10%,-10%);    
+}
+
+/* Holiday Style End */
+
 /* Portfolio Styles Start */
 .port-sub-title {
     color: #F00;
@@ -342,53 +477,54 @@ section {
     margin-top: 120px;
 }
 
-.top-container{
+.top-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding-top: 120px;
     padding-bottom: 50px;
 }
 
-.addrs-right{
+.addrs-right {
     display: flex;
     flex-direction: column;
 }
 
-.set-left-width{
+.set-left-width {
     max-width: 400px;
 }
 
-.setwidth{
+.setwidth {
     display: flex;
     gap: 10px;
     padding-right: 140px;
 }
 
-.middle-container{
+.middle-container {
     display: flex;
     justify-content: center;
     gap: 24px;
     padding: 48px 0;
 }
 
-.bottom-container{
+.bottom-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 50px;
     padding-bottom: 120px;
 }
 
-footer .address{
+footer .address {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
 
-.stylehr{
-        border: 0;
-        height: 0;
-        border: 1px solid rgba(255, 255, 255, 0.15);
-    }
+.stylehr {
+    border: 0;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 /* Footer Style End */
