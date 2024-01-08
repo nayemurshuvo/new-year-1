@@ -110,7 +110,7 @@ section {
     padding: 0 130px;
 }
 
-.welcome-text{
+.welcome-text {
     width: 100%;
     max-width: 700px;
 }
@@ -131,18 +131,201 @@ section {
     margin-top: 24px;
 }
 
-.welcome-btn{
-    margin-top: 48px;
-    margin-left: 32px;
-}
-
-.welcome-img{
+.welcome-img {
     max-width: 320px;
     margin-top: 70px;
     padding-right: 50px;
 }
 
-.welcome-img img{
+.welcome-img img {
     width: 120%;
 }
+
+.welcome-button {
+    margin-top: 48px;
+    margin-left: 32px;
+    background-color: #1a1919;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+}
+
+.welcome-button:hover {
+    background-color: #FFF;
+    color: black;
+}
+
 /* Welcome End */
+
+/* Event Style Start */
+#event {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.event-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 275px;
+}
+
+
+.event-title {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.event-heading {
+    color: #F00;
+}
+
+.event-btn {
+    margin-top: 48px;
+    background-color: #F00;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Event Style End */
+
+/* Portfolio Styles Start */
+.port-sub-title {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.port-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    ;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.port-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 900px;
+    margin-top: 22px;
+}
+
+.port-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.prt-cnt-1 {
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.port-container div {
+    width: 424px;
+}
+
+.port-container img {
+    width: 100%;
+}
+
+/* Portfolio Styles End */
+
+/* Newsletter Style Start */
+#newsletter {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+    border-radius: 10px;
+    padding: 80px 0;
+}
+
+.newsletter-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.newsletter-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 900px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+#newsletter form {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 48px;
+    display: flex;
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.newsletter-btn {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Newsletter Style End */
