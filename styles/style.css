@@ -329,3 +329,61 @@ section {
 }
 
 /* Newsletter Style End */
+
+/* Footer Style Start */
+
+#ftr {
+    background-color: #070211;
+    margin-top: 120px;
+}
+
+.top-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.addrs-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.set-left-width{
+    max-width: 400px;
+}
+
+.setwidth{
+    display: flex;
+    gap: 10px;
+    padding-right: 140px;
+}
+
+.middle-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 0;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+
+footer .address{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.stylehr{
+        border: 0;
+        height: 0;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+/* Footer Style End */
